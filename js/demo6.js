@@ -8,7 +8,7 @@
         windowWidth = window.innerWidth-100,
         windowHeight = window.innerHeight-100,
         windowDepth = 1000,
-        maxwidth = windowWidth/2,
+        maxwidth = windowWidth/4,
         maxheight = windowHeight/2,
         maxdepth = windowDepth/2,
         sphereRadius = 70,
