@@ -8,10 +8,10 @@
         windowWidth = window.innerWidth-100,
         windowHeight = window.innerHeight-100,
         windowDepth = 1000,
-        maxwidth = windowWidth/4,
+        maxwidth = windowWidth/2,
         maxheight = windowHeight/2,
         maxdepth = windowDepth/2,
-        sphereRadius = 70,
+        sphereRadius = 30,
         planeStartTime = 400,
         planeStartOpacity = 0.4,
         animating = false;
