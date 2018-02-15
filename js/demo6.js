@@ -11,7 +11,7 @@
         maxwidth = windowWidth/2,
         maxheight = windowHeight/2,
         maxdepth = windowDepth/2,
-        sphereRadius = 30,
+        sphereRadius = 70,
         planeStartTime = 400,
         planeStartOpacity = 0.4,
         animating = false;
@@ -56,13 +56,6 @@
             Math.round(Math.random()) == 1 ? 1 : -1, 
             Math.round(Math.random()) == 1 ? 1 : -1,
             Math.round(Math.random()) == 1 ? 1 : -1
-        ];
-    function sphere1( mesh ) {
-        this.mesh = mesh;
-        this.direction = [ 
-            Math.round(Math.random()) == 1 ? 1 : 1, 
-            Math.round(Math.random()) == 1 ? 1 : 1,
-            Math.round(Math.random()) == 1 ? 1 : 1
         ];
     
         this.speed = Math.random() * 200 + 400; // Pixels per millisecond
