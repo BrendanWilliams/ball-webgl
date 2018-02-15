@@ -9,7 +9,7 @@
         windowHeight = window.innerHeight-100,
         windowDepth = 1000,
         maxwidth = windowWidth/2,
-        maxheight = windowHeight/2,
+        maxheight = windowHeight,
         maxdepth = windowDepth/2,
         sphereRadius = 30,
         planeStartTime = 400,
