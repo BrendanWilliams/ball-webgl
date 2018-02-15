@@ -58,7 +58,7 @@
             Math.round(Math.random()) == 1 ? 1 : -1
         ];
     
-        this.speed = Math.random() * 200 + 400; // Pixels per millisecond
+        this.speed = Math.random() * 200 + 800; // Pixels per millisecond
     
         this.updatePosition = function (elapsed) {
             this.mesh.position.x += this.direction[0] * (elapsed / 1000.0 * this.speed);
