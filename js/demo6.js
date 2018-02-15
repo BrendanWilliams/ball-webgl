@@ -70,27 +70,33 @@
             if (this.mesh.position.x >= (maxwidth-sphereRadius)) {
                 hitPlane(planeLocation.RIGHT);
                 this.direction[0] = -1;
+                this.direction[1] *= -1;
             }
             else if (this.mesh.position.x <= -(maxwidth-sphereRadius)) {
                 hitPlane(planeLocation.LEFT);
                 this.direction[0] = 1;
+                this.direction[1] *= -1;
             }
     
             if (this.mesh.position.y >= (maxheight-sphereRadius)) {
                 hitPlane(planeLocation.TOP);
                 this.direction[1] = -1;
+                this.direction[2] *= -1;
             }
             else if (this.mesh.position.y <= -(maxheight-sphereRadius)) {
                 hitPlane(planeLocation.BOTTOM);
                 this.direction[1] = 1;
+                this.direction[2] *= -1;
             }
     
             if (this.mesh.position.z >= maxdepth) {
                 this.direction[2] = -1;
+                this.direction[0] *= -1;
             }
             else if (this.mesh.position.z <= -maxdepth) {
                 hitPlane(planeLocation.BACK);
                 this.direction[2] = 1;
+                this.direction[0] *= -1;
             }
         }
     
